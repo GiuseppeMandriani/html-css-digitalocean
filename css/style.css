@@ -1,0 +1,114 @@
+/* GENERAL */
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* UTILITIES */
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.fl-left{
+    float: left;
+}
+
+/* Menu */
+
+.menu-inline li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu-inline li:last-child{
+    margin-right: 0;
+}
+
+/* Icons */
+
+/* Text */
+
+.upper{
+    text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform:capitalize;
+}
+
+
+/* Positions margin e padding */
+
+/* margin */
+
+.mg-rg-xs{
+    margin-right: 5px;
+}
+
+.mg-bt-sm{
+    margin-bottom: 15px;
+}
+
+.mg-tp-md{
+    margin-top: 20px;
+}
+
+/* padding */
+
+.pd-tp-sm{
+    padding-top:20px;
+}
+
+.pd-bt-sm{
+    padding-bottom:20px;
+}
+
+.pd-tp-md{
+    padding-top:50px;
+}
+
+.pd-bt-md{
+    padding-bottom: 50px;
+}
+
+
+/* HEADER */
+
+.main-header{
+    line-height:80px;
+    font-size: 14px;
+    z-index: 10;
+}
+
+/* Logo */
+
+.main-header .logo{
+    width:15%;
+}
+
+.main-header .logo img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/* Nav Center */
+
+.main-header .nav-center{
+    width: 45%;
+}
+
+
+/* Nav-right */
+
+.main-header .nav-right{
+    width: 40%;
+    text-align: right;
+}
+
