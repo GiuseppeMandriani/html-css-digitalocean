@@ -13,6 +13,11 @@ body{
 
 h2,h3{
     color: #031c4e;
+    font-weight: 600;
+}
+
+p{
+    color: #5c6a88;
 }
 
 img{
@@ -34,9 +39,6 @@ img{
     float: left;
 }
 
-.pos-relative{
-    position: relative;
-}
 
 /* Menu */
 
@@ -56,6 +58,25 @@ img{
     width: calc(100% / 2 - 20px);
     margin-right:10px;
     margin-left:0;
+}
+.menu-info{
+    padding: 5px 0;
+    border-left: 1px solid #ccc;
+}
+
+.menu-info li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.menu-info li a{
+    padding-left: 10px;
+    color:#75809a;
+    text-decoration: none;
+}
+
+.menu-info li:first{
+    margin-top: 15px;
 }
 
 /* Icons */
@@ -271,6 +292,7 @@ background-size: cover;
 /* right */
 
 .registration-form{
+    padding: 15px 10px;
     background-color: #fff;
     border-radius: 5px;
 }
@@ -287,14 +309,14 @@ background-size: cover;
 
 
 
-
+/* RESPONSIVE FOR IPAD DA 768PX A 1024PX */
 @media screen and (min-width: 768px){
 
-    /* UTILITIES */
+/* UTILITIES */
 
-    /* Menù */
+/* Menù */
 
-    .menu-partner li{
+.menu-partner li{
     width: calc(100% / 6 - 40px);
     margin-right:20px;
 }
@@ -302,13 +324,12 @@ background-size: cover;
 
 /* JUMBOTRON */
 
-
 /* top-jumbo */
 
 /* left */
 
 .jumbo .top-jumbo h1{
-    font-size:45px;
+    font-size:40px;
     font-weight:500;
 }
 
