@@ -37,6 +37,17 @@ html{
 
 /* Buttons */
 
+.btn{
+    min-width:100px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color:#3a8aff;
+    border: 1px solid #3a8aff;
+    border-radius:5px;
+}
+
 /* Text */
 
 .upper{
@@ -100,16 +111,21 @@ html{
     si somma alla line-height */
 }
 
-.main-header a{
+
+.main-header a:not(.btn){
     text-decoration: none;
     color: #031c4e;
-    font-size: 16px;
 }
 
 /* Logo */
 .main-header .logo{
     width:30%;
 }
+
+/* .main-header .logo a.lg{
+    width: 150px;
+    line-height:1;
+} */
 
 .main-header .logo img{
     max-width: 100%;
@@ -134,9 +150,16 @@ html{
 
 /* Hamburger */
 
-.main-header .nav-right .ham a{
+.main-header .nav-right .ham a.ham-txt{
     display:block;
     color: #3a8aff;
+}
+
+/* JUMBOTRON */
+
+.jumbo{
+    background-image: url("./img/bg-banner-home.jpg");
+    background-size: cover;
 }
 
 
