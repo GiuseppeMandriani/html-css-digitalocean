@@ -11,7 +11,11 @@ body{
 
 
 
-h2,h3{
+h2,
+h3,
+h4,
+h5,
+h6{
     color: #031c4e;
     font-weight: 600;
 }
@@ -304,6 +308,17 @@ background-size: cover;
 }
 
 
+/* INFO */
+
+/* Aside central-right */
+
+.info .thumb img{
+    width: 40px;
+}
+
+
+
+
 
 
 
@@ -332,6 +347,13 @@ background-size: cover;
     font-size:40px;
     font-weight:500;
 }
+
+/* INFO */
+
+/* Aside central-right */
+
+
+
 
 }
 
