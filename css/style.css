@@ -33,6 +33,10 @@ html{
 
 /* Icons */
 
+
+
+/* Buttons */
+
 /* Text */
 
 .upper{
@@ -50,6 +54,10 @@ html{
 
 .mg-rg-xs{
     margin-right: 5px;
+}
+
+.mg-lf-xs{
+    margin-left: 3px;
 }
 
 .mg-bt-sm{
@@ -90,12 +98,12 @@ html{
     z-index: 10;
     /* bisogna ricordare che il padding 
     si somma alla line-height */
-    border: 1px solid black;
 }
 
 .main-header a{
     text-decoration: none;
     color: #031c4e;
+    font-size: 16px;
 }
 
 /* Logo */
@@ -126,8 +134,9 @@ html{
 
 /* Hamburger */
 
-.main-header .nav-right .ham{
+.main-header .nav-right .ham a{
     display:block;
+    color: #3a8aff;
 }
 
 
