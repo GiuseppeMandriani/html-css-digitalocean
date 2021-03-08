@@ -5,6 +5,19 @@ html{
 }
 
 
+body{
+    color: #fff;
+}
+
+p{
+    color: #bbcdff;
+}
+
+h2,h3{
+    color: #031c4e;
+}
+
+
 
 
 /* UTILITIES */
@@ -33,6 +46,13 @@ html{
 
 /* Icons */
 
+.icon-google{
+    position: absolute;
+    left: 10px;
+    width: 16px;
+    vertical-align: middle;
+}
+
 
 
 /* Buttons */
@@ -48,6 +68,28 @@ html{
     border-radius:5px;
 }
 
+.btn-account{
+    text-align: center;
+    color: #fff;
+    border: 1px solid transparent;
+    background-color:#579aff;
+}
+
+
+.btn-google{
+    color: #626262;
+    background-color:#fff;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px rgba(0,0,0,0.2);
+    position: relative;
+
+}
+
+/* Colors */
+
+.light-blue-start{
+    color: #006aff;
+}
 /* Text */
 
 .upper{
@@ -157,9 +199,30 @@ html{
 
 /* JUMBOTRON */
 
-.jumbo{
-    background-image: url("./img/bg-banner-home.jpg");
-    background-size: cover;
+
+/* top-jumbo */
+
+/* left */
+
+.top-jumbo{
+background-image: url(../img/bg-banner-home.jpg);
+background-size: cover;
+}
+
+/* right */
+
+.registration-form{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* bottom-jumbo */
+.bottom-jumbo{
+    background-color: #f3f5f9;
 }
 
 
@@ -175,7 +238,7 @@ html{
 
 
 /* RESPONSIVE FOR DESKTOP DA 1024PX IN POI */
-@media screen and (min-width:1024px){
+@media screen and (min-width:992px){
 
 /* HEADER */
 
