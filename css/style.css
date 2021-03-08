@@ -9,12 +9,14 @@ body{
     color: #fff;
 }
 
-p{
-    color: #bbcdff;
-}
+
 
 h2,h3{
     color: #031c4e;
+}
+
+img{
+    max-width: 100%;
 }
 
 
@@ -32,6 +34,10 @@ h2,h3{
     float: left;
 }
 
+.pos-relative{
+    position: relative;
+}
+
 /* Menu */
 
 .menu-inline li{
@@ -42,6 +48,14 @@ h2,h3{
 
 .menu-inline li:last-child{
     margin-right: 0;
+}
+
+
+.menu-partner li{
+    display: inline-block;
+    width: calc(100% / 2 - 20px);
+    margin-right:10px;
+    margin-left:0;
 }
 
 /* Icons */
@@ -75,6 +89,14 @@ h2,h3{
     background-color:#579aff;
 }
 
+.btn-terms{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #626262;
+
+}
+
 
 .btn-google{
     color: #626262;
@@ -87,6 +109,14 @@ h2,h3{
 
 /* Colors */
 
+.light-blue-p{
+    color: #bbcdff;
+}
+
+.light-grey-p{
+    color: #75809a;
+}
+
 .light-blue-start{
     color: #006aff;
 }
@@ -98,6 +128,10 @@ h2,h3{
 
 .capitalize{
     text-transform:capitalize;
+}
+
+.ft-sz-sm{
+    font-size: 12px;
 }
 
 
@@ -113,6 +147,10 @@ h2,h3{
     margin-left: 3px;
 }
 
+.mg-tp-sm{
+    margin-top:15px;
+}
+
 .mg-bt-sm{
     margin-bottom: 15px;
 }
@@ -120,6 +158,20 @@ h2,h3{
 .mg-tp-md{
     margin-top: 20px;
 }
+
+.mg-bt-md{
+    margin-bottom: 20px;
+}
+
+.mg-tp-lg{
+    margin-top: 30px;
+}
+
+.mg-bt-lg{
+    margin-bottom: 30px;
+}
+
+
 
 /* padding */
 
@@ -209,15 +261,19 @@ background-image: url(../img/bg-banner-home.jpg);
 background-size: cover;
 }
 
+.title-content{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform:translateY(-50%);
+}
+
 /* right */
 
 .registration-form{
     background-color: #fff;
     border-radius: 5px;
 }
-
-
-
 
 
 /* bottom-jumbo */
@@ -232,7 +288,31 @@ background-size: cover;
 
 
 
+@media screen and (min-width: 768px){
 
+    /* UTILITIES */
+
+    /* Menù */
+
+    .menu-partner li{
+    width: calc(100% / 6 - 40px);
+    margin-right:20px;
+}
+
+
+/* JUMBOTRON */
+
+
+/* top-jumbo */
+
+/* left */
+
+.jumbo .top-jumbo h1{
+    font-size:45px;
+    font-weight:500;
+}
+
+}
 
 
 
@@ -283,12 +363,17 @@ background-size: cover;
     display:none;
 }
 
+/* JUMBOTRON */
 
 
+/* top-jumbo */
 
+/* left */
 
+.jumbo .top-jumbo h1{
+    font-size:60px;
 
-
+}
 
 
 
