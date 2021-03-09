@@ -137,6 +137,10 @@ img{
     position: relative;
 }
 
+.a-link{
+    display: inline-block;
+}
+
 /* Colors */
 
 .light-blue-p{
@@ -161,6 +165,15 @@ img{
 
 .white{
     color: #fff;
+}
+
+.bg-card{
+    background-color: #fff;
+}
+
+.p-color-sz-card{
+    color: #5c6a88;
+    font-size: 22px;
 }
 
 /* Text */
@@ -188,6 +201,14 @@ img{
 
 .mg-lf-xs{
     margin-left: 3px;
+}
+
+.mg-bt-xs{
+    margin-bottom: 5px;
+}
+
+.mg-tp-xs{
+    margin-top: 5px;
 }
 
 .mg-tp-sm{
@@ -241,6 +262,7 @@ img{
 .pd-bt-md{
     padding-bottom: 50px;
 }
+
 
 /* HEADER */
 
