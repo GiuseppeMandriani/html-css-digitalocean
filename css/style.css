@@ -92,6 +92,39 @@ img{
     background-color: #006aff;
 }
 
+.menu-inline.social-btn{
+    padding-left: 0;
+}
+
+.menu-inline.social-btn li{
+    margin-right: 10px;
+}
+
+.social-btn li a{
+    display: inline-block;
+    font-size:18px;
+    transition: .4s;
+    color: #7a859d;
+}
+
+.foot-list{
+    padding-left: 0;
+    list-style: none;
+    color: #7a859d;
+}
+
+.foot-list li a{
+    transition: .4s;
+    color: #7a859d;
+    margin-bottom: 5px;
+}
+
+.foot-list li a:last-child{
+    margin-bottom: 0;
+}
+
+
+
 /* Icons */
 
 .icon-google{
@@ -113,6 +146,14 @@ img{
     color:#3a8aff;
     border: 1px solid #3a8aff;
     border-radius:5px;
+}
+
+.btn.large{
+    padding: 15px;
+    background-color:#fff;
+    text-decoration: none;
+    font-size:16px;
+    line-height:16px;
 }
 
 .btn-account{
@@ -151,6 +192,10 @@ img{
     color: #75809a;
 }
 
+.classical-p{
+    color: #596786;
+}
+
 .light-blue-start{
     color: #006aff;
 }
@@ -174,6 +219,15 @@ img{
 .p-color-sz-card{
     color: #5c6a88;
     font-size: 22px;
+}
+
+.bg-linear{
+    background-image:linear-gradient(180deg, #0048c5, #00219b)
+
+}
+
+.bg-foot{
+    background-color: #031c4e;
 }
 
 /* Text */
@@ -390,7 +444,6 @@ background-size: cover;
 .sect-table {
     padding-top: 30px;
     padding-bottom:30px;
-    background-image:linear-gradient(180deg, #0048c5, #00219b)
 }
 
 
@@ -414,6 +467,8 @@ background-size: cover;
 .table-list tr.first{
     border-top: 0;
 }
+
+
 
 
 
@@ -468,6 +523,12 @@ background-size: cover;
 .info-2 .thumb{
     margin-top:50px;
 }
+
+/* GET STARTED */
+.get-start{
+    padding-top: 70px;
+}
+
 }
 
 
