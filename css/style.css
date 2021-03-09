@@ -206,6 +206,14 @@ img{
     margin-bottom: 30px;
 }
 
+.mg-bt-xl{
+    margin-bottom: 50px;
+}
+
+.mg-tp-xl{
+    margin-top: 50px;
+}
+
 
 
 /* padding */
@@ -232,6 +240,7 @@ img{
     font-size: 13px;
     /* modifico altezza header e colori testo e altre caratteristiche */
     line-height:50px;
+    height:50px;
     padding: 0 15px;
     color: #fff;
     z-index: 10;
@@ -283,12 +292,6 @@ background-image: url(../img/bg-banner-home.jpg);
 background-size: cover;
 }
 
-.title-content{
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform:translateY(-50%);
-}
 
 /* right */
 
@@ -318,28 +321,33 @@ background-size: cover;
     background-color: #f3f5f9;
 }
 
+
 /* Slide-card */
 
 .card::before{
     display: inline-block;
-    width: 50px;
-    height: 30px;
     content: "\f104";
     font-family: "Font Awesome 5 Free"; 
     font-weight: 900; 
-    font-size:28px;
-    color: red;
+    color: #6f7b97;
+    font-size: 34px;
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    transform: translate(0, -50%);
 }
 
 .card::after{
     display: inline-block;
-    width: 50px;
-    height: 30px;
     content: "\f105";
     font-family: "Font Awesome 5 Free"; 
     font-weight: 900; 
-    font-size:28px;
-    color: red;
+    color: #031c4e;
+    font-size: 34px;
+    position: absolute;
+    top: 50%;
+    left: 105%;
+    transform: translate(-105%, -50%);
 }
 
 
@@ -371,15 +379,19 @@ background-size: cover;
 
 /* JUMBOTRON */
 
-/* top-jumbo */
 
-/* left */
 
 .jumbo .top-jumbo h1{
     font-size:40px;
     font-weight:500;
 }
 
+/* SLIDE */
+
+.slide{
+    padding:50px;
+    padding-bottom: 50px;
+}
 }
 
 
