@@ -72,6 +72,26 @@ img{
     margin-top: 15px;
 }
 
+.pagination.pagination-card li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 3px;
+    
+}
+
+.pagination.pagination-card li a{
+    display: inline-block;
+    padding: 5px 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #006aff;
+}
+
+.pagination > .active > a{
+    background-color: #006aff;
+}
+
 /* Icons */
 
 .icon-google{
@@ -292,6 +312,15 @@ background-size: cover;
 .info .thumb img{
     width: 40px;
 }
+
+/* SLIDE */
+.slide{
+    background-color: #f3f5f9;
+}
+
+/* Slide-card */
+
+
 
 
 
