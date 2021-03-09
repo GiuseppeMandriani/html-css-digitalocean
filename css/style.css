@@ -308,12 +308,18 @@ background-size: cover;
 }
 
 
-/* INFO */
+/* INFO 1, INFO 2*/
+
 
 /* Aside central-right */
 
-.info .thumb img{
+.info .thumb img,
+.info-2 .thumb img{
     width: 40px;
+}
+
+.info-2 .thumb{
+    margin-top:30px;
 }
 
 /* SLIDE */
