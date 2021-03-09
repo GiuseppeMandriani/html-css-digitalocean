@@ -33,17 +33,6 @@ img{
 
 /* UTILITIES */
 
-.clearfix::after{
-    content:"";
-    display: table;
-    clear: both;
-}
-
-.fl-left{
-    float: left;
-}
-
-
 /* Menu */
 
 .menu-inline li{
@@ -93,7 +82,6 @@ img{
 }
 
 
-
 /* Buttons */
 
 .btn{
@@ -119,9 +107,7 @@ img{
     text-decoration: none;
     text-align: center;
     color: #626262;
-
 }
-
 
 .btn-google{
     color: #626262;
@@ -129,7 +115,6 @@ img{
     border: 1px solid transparent;
     box-shadow: 1px 1px rgba(0,0,0,0.2);
     position: relative;
-
 }
 
 /* Colors */
@@ -145,6 +130,11 @@ img{
 .light-blue-start{
     color: #006aff;
 }
+
+.light-hamb{
+    color: #3a8aff;
+}
+
 /* Text */
 
 .upper{
@@ -219,10 +209,9 @@ img{
 /* HEADER */
 
 .main-header{
-    height: 40px;
     font-size: 13px;
     /* modifico altezza header e colori testo e altre caratteristiche */
-    line-height:40px;
+    line-height:50px;
     padding: 0 15px;
     color: #fff;
     z-index: 10;
@@ -237,17 +226,9 @@ img{
 }
 
 /* Logo */
-.main-header .logo{
-    width:30%;
-}
-
-/* .main-header .logo a.lg{
-    width: 150px;
-    line-height:1;
-} */
 
 .main-header .logo img{
-    max-width: 100%;
+    width: 160px;
     vertical-align: middle;
 }
 
@@ -259,19 +240,15 @@ img{
 
 /* Nav-right */
 
-.main-header .nav-right{
-    width: 70%;
-}
-
 .main-header .nav-right .nav-list{
     display: none;
 }
 
 /* Hamburger */
 
-.main-header .nav-right .ham a.ham-txt{
+.main-header .nav-right .ham{
     display:block;
-    color: #3a8aff;
+    text-align: right;
 }
 
 /* JUMBOTRON */
@@ -348,20 +325,13 @@ background-size: cover;
     font-weight:500;
 }
 
-/* INFO */
-
-/* Aside central-right */
-
-
-
-
 }
 
 
 
 
 /* RESPONSIVE FOR DESKTOP DA 1024PX IN POI */
-@media screen and (min-width:992px){
+@media screen and (min-width:1200px){
 
 /* HEADER */
 
@@ -374,15 +344,14 @@ background-size: cover;
 /* Logo */
 
 
-.main-header .logo{
+/* .main-header .logo{
     width:15%;
-}
+} */
 
 
 /* Nav Center */
 
 .main-header .nav-center{
-    width: 45%;
     display: block;
 }
 
@@ -390,7 +359,6 @@ background-size: cover;
 /* Nav-right */
 
 .main-header .nav-right{
-    width: 40%;
     text-align: right;
     display:block;
 }
