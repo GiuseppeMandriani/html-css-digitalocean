@@ -497,6 +497,7 @@ background-size: cover;
 }
 
 .help .notifications{
+    display: none;
     width: 20px;
     height:20px;
     border: 1px solid black;
@@ -616,7 +617,8 @@ span.help-text{
 
 /* Help */
 
-.help:hover .questions{
+.help:hover .questions,
+.help:hover .notifications{
     display: block;
 }
 
