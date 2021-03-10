@@ -512,6 +512,7 @@ background-size: cover;
 }
 
 .help .questions{
+    
     display: none;
     width: 300px;
     padding: 5px;
@@ -707,6 +708,11 @@ span.help-text{
 /* JUMBOTRON */
 
 /* top-jumbo */
+
+.jumbo .top-jumbo{
+    padding-top:50px;
+    padding-bottom:50px;
+}
 
 /* left */
 
