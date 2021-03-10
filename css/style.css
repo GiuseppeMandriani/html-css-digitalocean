@@ -33,6 +33,7 @@ img{
 
 /* UTILITIES */
 
+
 /* Menu */
 
 .menu-inline li{
@@ -52,6 +53,7 @@ img{
     margin-right:10px;
     margin-left:0;
 }
+
 .menu-info{
     padding: 5px 0;
     border-left: 1px solid #ccc;
@@ -68,9 +70,6 @@ img{
     text-decoration: none;
 }
 
-.menu-info li:first{
-    margin-top: 15px;
-}
 
 .pagination.pagination-card li{
     display: inline-block;
@@ -324,21 +323,14 @@ img{
     font-size: 13px;
     /* modifico altezza header e colori testo e altre caratteristiche */
     line-height:50px;
-    height:50px;
-    padding: 0 15px;
+    /* height:50px; */
     color: #fff;
     z-index: 10;
-    /* bisogna ricordare che il padding 
-    si somma alla line-height */
 }
 
-
-.main-header a:not(.btn){
-    text-decoration: none;
-    color: #031c4e;
-}
 
 /* Logo */
+
 
 .main-header .logo img{
     width: 160px;
@@ -489,7 +481,7 @@ background-size: cover;
 
 
 
-/* RESPONSIVE FOR IPAD DA 768PX A 1024PX */
+/* RESPONSIVE FOR IPAD DA 768PX A 991PX  (sm)*/
 @media screen and (min-width: 768px){
 
 /* UTILITIES */
@@ -500,6 +492,8 @@ background-size: cover;
     width: calc(100% / 6 - 40px);
     margin-right:20px;
 }
+
+
 
 
 /* JUMBOTRON */
@@ -531,10 +525,8 @@ background-size: cover;
 }
 
 
-
-
-/* RESPONSIVE FOR DESKTOP DA 1024PX IN POI */
-@media screen and (min-width:1024px){
+/* RESPONSIVE FOR DESKTOP DA 992PX IN POI(md) */
+@media screen and (min-width:992px){
 
 /* HEADER */
 
@@ -543,13 +535,14 @@ background-size: cover;
     line-height: 60px;
 }
 
+.main-header a:not(.btn){
+    text-decoration: none;
+    color: #031c4e;
+}
 
-/* Logo */
-
-
-/* .main-header .logo{
-    width:15%;
-} */
+.main-header a.btn{
+    line-height:1;
+}
 
 
 /* Nav Center */
