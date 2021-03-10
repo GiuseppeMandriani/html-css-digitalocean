@@ -10,8 +10,6 @@ body{
 
 }
 
-
-
 h2,
 h3,
 h4,
@@ -33,6 +31,16 @@ img{
 
 
 /* UTILITIES */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl-left{
+    float: left;
+}
 
 
 /* Menu */
@@ -465,6 +473,68 @@ background-size: cover;
 }
 
 
+/* HELP */
+
+.help{
+    position: fixed;
+    bottom: 2%;
+    left: 15%;
+    cursor: pointer;
+}
+.help .shark{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius:5px;
+    background-color:#006aff;
+    position: relative;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.help .shark img{
+    max-width: 100%;
+}
+
+.help .notifications{
+    width: 20px;
+    height:20px;
+    border: 1px solid black;
+    background-color:red;
+    border-radius:50%;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height:1;
+    position: absolute;
+    top: -15%;
+    right: -15%;
+}
+
+.help .questions{
+    display: none;
+    width: 300px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    position:relative;
+    filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.7));
+}
+
+.help .questions .box{
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    background-color:#fff;
+    position: absolute;
+    bottom:10%;
+    right: -1%;
+}
+
+span.help-text{
+    color: #031c4e;
+}
+
+
 /* HOVER,FOCUS EFFECT */
 
 /* Header */
@@ -544,58 +614,20 @@ background-size: cover;
     color: #ccc;
 }
 
-/* HELP */
+/* Help */
 
-.help{
-    position: fixed;
-    bottom: 2%;
-    left: 20%;
-}
-.help .shark{
-    width: 50px;
-    height: 50px;
-    border-radius:5px;
-    background-color:#006aff;
-    position: relative;
+.help:hover .questions{
+    display: block;
 }
 
-.help .notifications{
-    width: 20px;
-    height:20px;
-    border: 1px solid black;
-    background-color:red;
-    border-radius:50%;
-    border: 2px solid #fff;
-    text-align: center;
-    line-height:1;
-    position: absolute;
-    top: -15%;
-    right: -15%;
-}
 
-.help .questions{
-    padding: 10px;
-    width: 300px;
-    background-color: #fff;
-    border-radius: 5px;
-    position:relative;
-    /* box-shadow: 1px 1px 1px 1px red ; */
-    filter: drop-shadow(1px 1px 5px rgba(0,0,0,0.7));
-}
 
-.help .questions .box{
-    width: 15px;
-    height: 15px;
-    transform: rotate(45deg);
-    background-color:#fff;
-    position: absolute;
-    bottom:5%;
-    right: -1%;
-}
 
-span.help-text{
-    color: #031c4e;
-}
+
+
+
+
+
 
 
 /* RESPONSIVE FOR IPAD DA 768PX A 991PX  (sm)*/
@@ -691,21 +723,23 @@ span.help-text{
 
 /* HELP */
 
-.help{
+.help {
     position: fixed;
     bottom: 2%;
-    left: 20%;
+    right: 5%;
 }
 
-.help .shark,
+.help .shark{
+    float:right;
+}
 .help .questions{
-    display: inline-block;
+    float:right;
+    margin-right: 20px;
 }
 
-.help .questions{
-    margin-top: 0;
-    margin-right: 10px;
-}
+
+
+
 
 
 
