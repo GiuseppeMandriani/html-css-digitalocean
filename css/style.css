@@ -160,13 +160,14 @@ img{
     color: #fff;
     border: 1px solid transparent;
     background-color:#579aff;
+    transition: all .3s;
 }
 
 .btn-terms{
     display: inline-block;
-    text-decoration: none;
     text-align: center;
-    color: #626262;
+    color: #006aff;
+    
 }
 
 .btn-google{
@@ -175,11 +176,9 @@ img{
     border: 1px solid transparent;
     box-shadow: 1px 1px rgba(0,0,0,0.2);
     position: relative;
+    transition: all .3s;
 }
 
-.a-link{
-    display: inline-block;
-}
 
 /* Colors */
 
@@ -417,6 +416,7 @@ background-size: cover;
     top: 50%;
     left: -5%;
     transform: translate(0, -50%);
+    cursor: pointer;
 }
 
 .card::after{
@@ -430,6 +430,8 @@ background-size: cover;
     top: 50%;
     left: 105%;
     transform: translate(-105%, -50%);
+    cursor: pointer;
+
 }
 
 /* TABLE */
@@ -459,6 +461,50 @@ background-size: cover;
 .table-list tr.first{
     border-top: 0;
 }
+
+
+/* HOVER,FOCUS EFFECT */
+
+/* Header */
+
+.main-header .nav-right .ham:hover i{
+    color: #0049ff;
+}
+
+/* Top Jumbo, Form */
+
+.registration-form input[type="email"]:focus,
+.registration-form input[type="password"]:focus{
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, .5);
+}
+
+.btn-account:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color:#0049ff;
+    text-decoration: none;
+}
+
+.btn-google:hover{
+    text-decoration: none;
+    cursor:pointer;
+    font-weight: bold;  
+}
+
+.btn-terms:hover{
+    text-decoration: none;
+    color: #006aff;
+
+}
+
+/* Table */
+
+.sect-table .table-list a:hover{
+    text-decoration: none;
+    color:#3c65fa;
+}
+
 
 
 
