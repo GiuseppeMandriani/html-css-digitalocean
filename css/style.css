@@ -91,15 +91,15 @@ img{
     background-color: #006aff;
 }
 
-.menu-inline.social-btn{
+.menu-inline.social{
     padding-left: 0;
 }
 
-.menu-inline.social-btn li{
+.menu-inline.social li{
     margin-right: 10px;
 }
 
-.social-btn li a{
+.social li a{
     display: inline-block;
     font-size:18px;
     transition: .4s;
@@ -153,6 +153,7 @@ img{
     text-decoration: none;
     font-size:16px;
     line-height:16px;
+    transition: all .3s;
 }
 
 .btn-account{
@@ -503,6 +504,31 @@ background-size: cover;
 .sect-table .table-list a:hover{
     text-decoration: none;
     color:#3c65fa;
+}
+
+/* Get started */
+
+.btn.large:hover{
+    background-color: #3a8aff;
+    color: #fff;
+    border: 1px solid;
+
+}
+
+/* Footer */
+
+/* Social */
+
+.social li a:hover{
+    transform: scale(2);
+    color: #0080ff;
+}
+
+/* List */
+
+.foot-list li a:hover{
+    text-decoration: none;
+    color: #ccc;
 }
 
 
