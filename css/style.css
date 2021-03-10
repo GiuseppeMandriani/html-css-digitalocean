@@ -621,15 +621,6 @@ span.help-text{
 }
 
 
-
-
-
-
-
-
-
-
-
 /* RESPONSIVE FOR IPAD DA 768PX A 991PX  (sm)*/
 @media screen and (min-width: 768px){
 
@@ -736,11 +727,6 @@ span.help-text{
     float:right;
     margin-right: 20px;
 }
-
-
-
-
-
 
 
 }
